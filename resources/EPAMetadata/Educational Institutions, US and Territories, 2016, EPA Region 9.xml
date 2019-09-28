@@ -1,0 +1,763 @@
+<metadata xml:lang="en">
+  <mdLang>
+    <languageCode value="eng" />
+    <countryCode value="USA" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Cheryl Henley</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>415-972-3586</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>75 Hawthorne Street</delPoint>
+        <delPoint>EMD-5-1</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region09/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20190212</mdDateSt>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Educational Institutions, US and Territories, 2016, EPA Region 9</resTitle>
+      <date>
+        <pubDate date="inapplicable">2017-06-22</pubDate>
+      </date>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <collTitle>Excess Food Opportunities Map, US and Territories, 2019, EPA, Region 9 GIS Center</collTitle>
+    </idCitation>
+    <idAbs>This GIS dataset contains point features that represent educational institutions including colleges and universities and public and private elementary and secondary schools. The data for each type of institution were collected from publically  accessible databases available at National Center for Education Statistics (https://nces.ed.gov/). All data is from 2015 and 2016. Calculations used to estimate annual excess food weight are described in EPA&#39;s 2019 publication: Technical Methodology for the EPA Excess Food Opportunities Map.  The dataset contains 127,203 institutions.</idAbs>
+    <idPurp>The US EPA&#39;s Excess Food Opportunities Map (geopub.epa.gov/ExcessFoodMap) is a national-scale interactive portal that maps excess food generators (e.g., grocery stores, restaurants, schools) and recipients (e.g., food banks, anaerobic digestion and composting facilities). The location, contact information, and estimates of excess food generation are beneficial to excess food resource stakeholders including NGOs, researchers, facility owners, operators, and designers striving to enhance the recovery and recycling of these materials for a more sustainable food management system.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <thesaName>
+        <resTitle>EPA Place Names</resTitle>
+        <date>
+          <pubDate>2015-01-31</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/taxonomies/search.do?search=&amp;searchString=&amp;taxonomyName=WBT%20-%20Geographic%20Locations</linkage>
+          <orFunct>
+            <OnFunctCd value="002" />
+          </orFunct>
+          <orName>Web Taxonomy - Geographic Locations</orName>
+        </citOnlineRes>
+      </thesaName>
+      <thesaLang>
+        <languageCode value="eng" />
+        <countryCode value="US" />
+      </thesaLang>
+      <keyword>Alabama</keyword>
+      <keyword>Alaska</keyword>
+      <keyword>American Samoa</keyword>
+      <keyword>Arizona</keyword>
+      <keyword>Arkansas</keyword>
+      <keyword>California</keyword>
+      <keyword>Colorado</keyword>
+      <keyword>Connecticut</keyword>
+      <keyword>Delaware</keyword>
+      <keyword>Florida</keyword>
+      <keyword>Georgia</keyword>
+      <keyword>Guam</keyword>
+      <keyword>Hawaii</keyword>
+      <keyword>Idaho</keyword>
+      <keyword>Illinois</keyword>
+      <keyword>Indiana</keyword>
+      <keyword>Iowa</keyword>
+      <keyword>Kansas</keyword>
+      <keyword>Kentucky</keyword>
+      <keyword>Louisiana</keyword>
+      <keyword>Maine</keyword>
+      <keyword>Maryland</keyword>
+      <keyword>Massachusetts</keyword>
+      <keyword>Michigan</keyword>
+      <keyword>Minnesota</keyword>
+      <keyword>Mississippi</keyword>
+      <keyword>Missouri</keyword>
+      <keyword>Montana</keyword>
+      <keyword>Nebraska</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>New Hampshire</keyword>
+      <keyword>New Jersey</keyword>
+      <keyword>New Mexico</keyword>
+      <keyword>New York</keyword>
+      <keyword>North Carolina</keyword>
+      <keyword>North Dakota</keyword>
+      <keyword>Ohio</keyword>
+      <keyword>Oklahoma</keyword>
+      <keyword>Oregon</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Puerto Rico</keyword>
+      <keyword>Rhode Island</keyword>
+      <keyword>South Carolina</keyword>
+      <keyword>South Dakota</keyword>
+      <keyword>Tennessee</keyword>
+      <keyword>Texas</keyword>
+      <keyword>United States</keyword>
+      <keyword>Utah</keyword>
+      <keyword>Vermont</keyword>
+      <keyword>Virgin Islands</keyword>
+      <keyword>Virginia</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Washington DC</keyword>
+      <keyword>West Virginia</keyword>
+      <keyword>Wisconsin</keyword>
+      <keyword>Wyoming</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+        <citOnlineRes>
+          <linkage>https://www.epa.gov/geospatial/epa-metadata-technical-specification</linkage>
+          <orFunct>
+            <OnFunctCd value="002" />
+          </orFunct>
+          <orName>EPA Metadata Technical Specification</orName>
+        </citOnlineRes>
+        <date>
+          <pubDate>2017-06-22T00:00:00</pubDate>
+        </date>
+      </thesaName>
+      <keyword>Environment</keyword>
+      <keyword>Human</keyword>
+      <keyword>Waste</keyword>
+    </themeKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</useLimit>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+      </LegConsts>
+    </resConst>
+    <resConst>
+      <SecConsts>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>Data should be used only for Food Recovery purposes promoted by the EPA&#39;s Sustainable Materials Management Program (SMM). Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useLimit>
+      </Consts>
+    </resConst>
+    <spatRpType>
+      <SpatRepTypCd value="001" />
+    </spatRpType>
+    <dataLang>
+      <languageCode value="eng" />
+      <countryCode value="USA" />
+    </dataLang>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.0.6491</envirDesc>
+    <dataExt>
+      <geoEle xmlns="">
+        <GeoBndBox esriExtentType="search">
+          <exTypeCode>1</exTypeCode>
+          <westBL>-176.639853</westBL>
+          <eastBL>171.378442</eastBL>
+          <northBL>71.324702</northBL>
+          <southBL>-14.322587</southBL>
+        </GeoBndBox>
+      </geoEle>
+      <exDesc>Ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Period>
+              <tmEnd>2015-12-31T00:00:00</tmEnd>
+            </TM_Period>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataChar>
+      <CharSetCd value="004" />
+    </dataChar>
+    <idPoC>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum tddtty="">415-972-3586</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <delPoint>EMD-5-1</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region09/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+      <displayName>[From Metadata Record]   Cheryl Henley</displayName>
+    </idPoC>
+    <themeKeys>
+      <thesaLang>
+        <languageCode value="eng" />
+        <countryCode value="US" />
+      </thesaLang>
+      <thesaName>
+        <resTitle>Federal Program Inventory</resTitle>
+        <date>
+          <pubDate>2013-09-16</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://www.performance.gov/federalprograminventory</linkage>
+          <orFunct>
+            <OnFunctCd value="002" />
+          </orFunct>
+          <orName>Federal Program Inventory</orName>
+        </citOnlineRes>
+      </thesaName>
+      <keyword>020:089</keyword>
+      <keyword>020:090</keyword>
+    </themeKeys>
+    <idPoC>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntAddress addressType="both">
+          <delPoint>75 Hawthorne Street</delPoint>
+          <delPoint>EMD-5-1</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntPhone>
+          <voiceNum tddtty="">415-972-3586</voiceNum>
+        </cntPhone>
+        <cntOnlineRes>
+          <linkage>http://www.epa.gov/region09/</linkage>
+          <protocol>website</protocol>
+          <orFunct>
+            <OnFunctCd value="002" />
+          </orFunct>
+        </cntOnlineRes>
+      </rpCntInfo>
+      <displayName>[EPA Directory]   Cheryl Henley</displayName>
+      <role>
+        <RoleCd value="010" />
+      </role>
+    </idPoC>
+    <idCredit>US EPA Region 9 GIS Center, US EPA Sustainable Materials Management
+</idCredit>
+    <tpCat>
+      <TopicCatCd value="007" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="013" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="016" />
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="011" />
+    </maintFreq>
+    <dateNext>2017-05-20T00:00:00</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <dataSource type="">
+        <srcDesc>Integrated Postsecondary Education Data System (IPEDS) data. Including Public Elementary/Secondary School Universe Survey Data and Private School Universe Survey (PSS)</srcDesc>
+        <srcCitatn>
+          <resTitle>Integrated Postsecondary Education Data System (IPEDS), National Center for Education Statistics</resTitle>
+          <date>
+            <pubDate>2015-12-31</pubDate>
+          </date>
+        </srcCitatn>
+      </dataSource>
+      <prcStep>
+        <stepDesc>Converted excel table with X,Y information to a feature class.</stepDesc>
+        <stepDateTm>2016-04-08T00:00:00</stepDateTm>
+        <stepProc>
+          <rpIndName>Cheryl Henley</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Coordinator</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>415-972-3586</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>EMD-5-1</delPoint>
+              <delPoint>75 Hawthorne Street</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region09/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Created FDGC-compliant metadata for feature class</stepDesc>
+        <stepDateTm>2016-04-27T00:00:00</stepDateTm>
+        <stepProc>
+          <rpIndName>Cheryl Henley</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Coordinator</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>415-972-3586</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>75 Hawthorne Street</delPoint>
+              <delPoint>EMD-5-1</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region09/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <prcStep>
+        <stepDesc>Data updated from source: X,Y information mapped where provided. Geocoding and reverse geocoding services performed using an internal geocoding service.</stepDesc>
+        <stepDateTm>2019-01-29T00:00:00</stepDateTm>
+        <stepProc>
+          <rpIndName>Cheryl Henley</rpIndName>
+          <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+          <rpPosName>GIS Coordinator</rpPosName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>415-972-3586</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>75 Hawthorne Street</delPoint>
+              <delPoint>EMD-5-1</delPoint>
+              <city>San Francisco</city>
+              <adminArea>CA</adminArea>
+              <postCode>94105</postCode>
+              <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+            </cntAddress>
+            <cntInstr>http://www.epa.gov/region09/</cntInstr>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <Indref>colleges and universities, public and private elementary and secondary schools</Indref>
+    <VectSpatRep>
+      <geometObjs Name="prjweb.DBO.EducationalInstitutions_USTer_2016_R9">
+        <geoObjTyp>
+          <GeoObjTypCd value="004" Sync="TRUE" />
+        </geoObjTyp>
+        <geoObjCnt Sync="TRUE">136534</geoObjCnt>
+      </geometObjs>
+      <topLvl>
+        <TopoLevCd value="001" Sync="TRUE" />
+      </topLvl>
+    </VectSpatRep>
+  </spatRepInfo>
+  <eainfo>
+    <detailed Name="prjweb.DBO.EducationalInstitutions_USTer_2016_R9">
+      <enttyp>
+        <enttypl>prjweb.DBO.EducationalInstitutions_USTer_2016_R9</enttypl>
+        <enttypd>Proprietary file type</enttypd>
+        <enttypds>ESRI</enttypds>
+        <enttypt Sync="TRUE">Feature Class</enttypt>
+        <enttypc Sync="TRUE">136534</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Shape</attalias>
+        <attrtype Sync="TRUE">Geometry</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>UniqueID</attrlabl>
+        <attrdef>Automatically generated ID for quality control and maintenence of records</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>unique alphanumeric identifier</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">UniqueID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>NAICS_Code_Description</attrlabl>
+        <attrdef>Descriptive text for the industry or subsector. The North American Industry Classification System (NAICS, pronounced Nakes) was developed under the direction and guidance of the Office of Management and Budget (OMB) as the standard for use by Federal statistical agencies in classifying business establishments for the collection, tabulation, presentation, and analysis of statistical data describing the U.S. economy.</attrdef>
+        <attrdefs>Office of Management and Budget (OMB)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>North American Industry Classification System (NAICS) </codesetn>
+            <codesets>https://www.census.gov/eos/www/naics/2017NAICS/2017_NAICS_Manual.pdf</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">NAICS_Code_Description</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>NAICS_Code</attrlabl>
+        <attrdef>Unique numerical identifier for the industry or subsector. The North American Industry Classification System (NAICS, pronounced Nakes) was developed under the direction and guidance of the Office of Management and Budget (OMB) as the standard for use by Federal statistical agencies in classifying business establishments for the collection, tabulation, presentation, and analysis of statistical data describing the U.S. economy.</attrdef>
+        <attrdefs>Office of Management and Budget (OMB)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>North American Industry Classification System (NAICS) </codesetn>
+            <codesets>https://www.census.gov/eos/www/naics/2017NAICS/2017_NAICS_Manual.pdf</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">NAICS_Code</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Street_Address</attrlabl>
+        <attrdef>Street or mailing address of the facility</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>USPS street or mailing address</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Street_Address</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>City_Name</attrlabl>
+        <attrdef>City where the facility is located</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Cities</codesetn>
+            <codesets>https://www.census.gov/geo/reference/codes/place.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">City_Name</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>County_Name</attrlabl>
+        <attrdef>County where the facility is located</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties</codesetn>
+            <codesets>https://www.census.gov/geo/reference/codes/place.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">County_Name</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>GNIS</attrlabl>
+        <attrdef>County where the food bank is located, expressed as a unique feature identifier from the Geographic Names Information System (GNIS)</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Geographic Names Information System</codesetn>
+            <codesets>https://nhd.usgs.gov/gnis.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">GNIS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>StateAbrv</attrlabl>
+        <attrdef>USPS State abbreviation where the food bank is located</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>State postal code</codesetn>
+            <codesets>https://www.census.gov/geo/reference/codes/place.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">StateAbrv</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>POSTCODE</attrlabl>
+        <attrdef>USPS postal code where the facility is located</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS ZIP code</codesetn>
+            <codesets>https://www.usps.com/nationalpremieraccounts/findzipcodes.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">POSTCODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ExcessFood_TonYear_LowEst</attrlabl>
+        <attrdef>Low or conservative method used to estimate excess food (see technical report)
+</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Weight in tons</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ExcessFood_TonYear_LowEst</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ExcessFood_TonYear_HighEst</attrlabl>
+        <attrdef>High or aggressive method used to estimate excess food (see technical report)
+</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Weight in tons</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ExcessFood_TonYear_HighEst</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PlateWaste_TonYear_LowEst</attrlabl>
+        <attrdef>Low or conservative method used to estimate the quantity of edible portions of food served that is uneaten
+</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Weight in tons</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PlateWaste_TonYear_LowEst</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>PlateWaste_TonYear_HighEst</attrlabl>
+        <attrdef>High or aggressive method used to estimate the quantity of edible portions of food served that is uneaten
+</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Weight in tons</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">PlateWaste_TonYear_HighEst</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>POINT_X</attrlabl>
+        <attrdef>spatial properties</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">POINT_X</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>POINT_Y</attrlabl>
+        <attrdef>Spatial properties</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">POINT_Y</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Institute_Name</attrlabl>
+        <attrdef>Name of Institution</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Institution name</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Institute_Name</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdHrLvName>dataset</mdHrLvName>
+  <refSysInfo>
+    <RefSystem dimension="horizontal">
+      <refSysID>
+        <identCode code="3857" />
+        <idCodeSpace>EPSG</idCodeSpace>
+        <idVersion>8.8(9.3.1.2)</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <mdFileID>E3107DB9-E8C0-4620-93D9-80C79A046D26</mdFileID>
+  <distInfo xmlns="">
+    <distTranOps xmlns="">
+      <onLineSrc>
+        <linkage>geopub.epa.gov/ExcessFoodMap</linkage>
+        <orName>EPA Excess Food Opportunities Map</orName>
+        <orDesc>Web Map Application</orDesc>
+        <orFunct>
+          <OnFunctCd value="009" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+    <distTranOps xmlns="">
+      <onLineSrc>
+        <linkage>https://gispub.epa.gov/arcgis/rest/services/Region9/LND1903612_ExcessFoodGenerator/MapServer</linkage>
+        <orName>Excess Food Opportunities Map, US and Territories, 2019, EPA, Region 9 GIS Center</orName>
+        <orDesc>RESTful Web Service</orDesc>
+        <orFunct>
+          <OnFunctCd value="007" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+    <distTranOps xmlns="">
+      <onLineSrc>
+        <linkage>https://edg.epa.gov/data/PUBLIC/R9/ExcessFoodPublic_USTer_2018_R9.gdb.zip</linkage>
+        <orName>Excess Food Opportunities Map, US and Territories, 2019, EPA, Region 9 GIS Center</orName>
+        <orDesc>Geodatabase and Excel download in the Public Region 9 folder</orDesc>
+        <orFunct>
+          <OnFunctCd value="001" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <spdoinfo>
+    <ptvctinf>
+      <esriterm Name="prjweb.DBO.EducationalInstitutions_USTer_2016_R9">
+        <efeatyp Sync="TRUE">Simple</efeatyp>
+        <efeageom code="1" Sync="TRUE" />
+        <esritopo Sync="TRUE">FALSE</esritopo>
+        <efeacnt Sync="TRUE">136534</efeacnt>
+        <spindex Sync="TRUE">TRUE</spindex>
+        <linrefer Sync="TRUE">FALSE</linrefer>
+      </esriterm>
+    </ptvctinf>
+  </spdoinfo>
+  <Esri>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">prjweb.DBO.EducationalInstitutions_USTer_2016_R9</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <nativeExtBox>
+          <westBL Sync="TRUE">-19663458.489800</westBL>
+          <eastBL Sync="TRUE">19077760.896400</eastBL>
+          <southBL Sync="TRUE">-1611252.307500</southBL>
+          <northBL Sync="TRUE">11514219.887400</northBL>
+          <exTypeCode Sync="TRUE">1</exTypeCode>
+        </nativeExtBox>
+        <itemLocation>
+          <linkage Sync="TRUE">Server=E0909PSFPK003; Service=sde:sqlserver:E0909PSFPK003; Database=prjweb; Version=dbo.DEFAULT</linkage>
+          <protocol Sync="TRUE">ArcSDE Connection</protocol>
+        </itemLocation>
+      </itemProps>
+      <coordRef>
+        <type Sync="TRUE">Projected</type>
+        <geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn>
+        <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+        <projcsn Sync="TRUE">WGS_1984_Web_Mercator_Auxiliary_Sphere</projcsn>
+        <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.5'&gt;&lt;WKT&gt;PROJCS[&amp;quot;WGS_1984_Web_Mercator_Auxiliary_Sphere&amp;quot;,GEOGCS[&amp;quot;GCS_WGS_1984&amp;quot;,DATUM[&amp;quot;D_WGS_1984&amp;quot;,SPHEROID[&amp;quot;WGS_1984&amp;quot;,6378137.0,298.257223563]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Mercator_Auxiliary_Sphere&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,0.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,0.0],PARAMETER[&amp;quot;Auxiliary_Sphere_Type&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3857]]&lt;/WKT&gt;&lt;XOrigin&gt;-20037700&lt;/XOrigin&gt;&lt;YOrigin&gt;-30241100&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;0&lt;/ZOrigin&gt;&lt;ZScale&gt;1&lt;/ZScale&gt;&lt;MOrigin&gt;0&lt;/MOrigin&gt;&lt;MScale&gt;1&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102100&lt;/WKID&gt;&lt;LatestWKID&gt;3857&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+      </coordRef>
+    </DataProperties>
+    <SyncDate>20170712</SyncDate>
+    <SyncTime>16393500</SyncTime>
+    <ModDate>20170712</ModDate>
+    <ModTime>16394600</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>NAP</ArcGISProfile>
+  </Esri>
+</metadata>

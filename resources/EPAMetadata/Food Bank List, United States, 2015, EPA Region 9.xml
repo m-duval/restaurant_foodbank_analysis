@@ -1,0 +1,598 @@
+<metadata xml:lang="en">
+  <mdLang>
+    <languageCode value="eng" />
+    <countryCode value="USA" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>Cheryl Henley</rpIndName>
+    <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+    <rpPosName>GIS Coordinator</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>415-972-3586</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>EMD-5-1</delPoint>
+        <delPoint>75 Hawthorne Street</delPoint>
+        <city>San Francisco</city>
+        <adminArea>CA</adminArea>
+        <postCode>94105</postCode>
+        <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+      </cntAddress>
+      <cntInstr>http://www.epa.gov/region09/</cntInstr>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20190212</mdDateSt>
+  <distInfo>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://geopub.epa.gov/ExcessFoodMap</linkage>
+        <orName>EPA Excess Food Opportunities Map</orName>
+        <orDesc>Web Map Application</orDesc>
+        <orFunct>
+          <OnFunctCd value="009" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://edg.epa.gov/data/PUBLIC/R9/ExcessFoodPublic_USTer_2018_R9.gdb.zip</linkage>
+        <orName>Excess Food Opportunities Map, US and Territories, 2019, EPA, Region 9 GIS Center</orName>
+        <orDesc>Geodatabase and Excel download in the Public Region 9 folder</orDesc>
+        <orFunct>
+          <OnFunctCd value="001" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://gispub.epa.gov/arcgis/rest/services/Region9/LND1903612_ExcessFoodRecipient/MapServer</linkage>
+        <orName>Excess Food Opportunities Map, US and Territories, 2019, EPA, Region 9 GIS Center</orName>
+        <orDesc>RESTful Web Service</orDesc>
+        <orFunct>
+          <OnFunctCd value="007" />
+        </orFunct>
+      </onLineSrc>
+    </distTranOps>
+    <distFormat>
+      <formatName>SDE Table</formatName>
+    </distFormat>
+  </distInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>Food Banks, United States, 2015, EPA Region 9</resTitle>
+      <date>
+        <pubDate date="inapplicable">2017-06-22</pubDate>
+      </date>
+      <presForm>
+        <PresFormCd value="011" />
+      </presForm>
+    </idCitation>
+    <idAbs>This table lists Food Banks associated with the Food Waste Recipient Count by Zip Code GIS dataset. Food Bank information was collected in 2015 from Feeding America, a national organization for food banks. The table includes food banks that are either Partner Distribution Organizations (PDO) or Regional Distribution Organizations (RDO). Calculations used to estimate annual excess food weight are described in EPA&#39;s 2017 publication: Technical Methodology for the EPA Excess Food Opportunities Map. The dataset contains 317 facilities.</idAbs>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>Cheryl Henley</rpIndName>
+      <rpOrgName>U.S. Environmental Protection Agency, Region 9</rpOrgName>
+      <rpPosName>GIS Coordinator</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum tddtty="">415-972-3586</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>EMD-5-1</delPoint>
+          <delPoint>75 Hawthorne Street</delPoint>
+          <city>San Francisco</city>
+          <adminArea>CA</adminArea>
+          <postCode>94105</postCode>
+          <eMailAdd>henley.cheryl@epa.gov</eMailAdd>
+        </cntAddress>
+        <cntInstr>http://www.epa.gov/region09/</cntInstr>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="010">Publisher</RoleCd>
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="011" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <thesaName>
+        <resTitle>EPA Place Names</resTitle>
+        <date>
+          <pubDate>2015-01-31</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://ofmpub.epa.gov/sor_internet/registry/termreg/searchandretrieve/taxonomies/search.do?search=&amp;searchString=&amp;taxonomyName=WBT%20-%20Geographic%20Locations</linkage>
+          <orFunct>
+            <OnFunctCd value="002" />
+          </orFunct>
+          <orName>Web Taxonomy - Geographic Locations</orName>
+        </citOnlineRes>
+      </thesaName>
+      <thesaLang>
+        <languageCode value="eng" />
+        <countryCode value="US" />
+      </thesaLang>
+      <keyword>Montana</keyword>
+      <keyword>Utah</keyword>
+      <keyword>Michigan</keyword>
+      <keyword>Virgin Islands</keyword>
+      <keyword>Florida</keyword>
+      <keyword>West Virginia</keyword>
+      <keyword>Colorado</keyword>
+      <keyword>Alaska</keyword>
+      <keyword>New Mexico</keyword>
+      <keyword>Maine</keyword>
+      <keyword>Nevada</keyword>
+      <keyword>Kansas</keyword>
+      <keyword>Kentucky</keyword>
+      <keyword>Louisiana</keyword>
+      <keyword>Puerto Rico</keyword>
+      <keyword>Wyoming</keyword>
+      <keyword>Georgia</keyword>
+      <keyword>Delaware</keyword>
+      <keyword>South Carolina</keyword>
+      <keyword>Connecticut</keyword>
+      <keyword>Minnesota</keyword>
+      <keyword>American Samoa</keyword>
+      <keyword>Massachusetts</keyword>
+      <keyword>Mississippi</keyword>
+      <keyword>New Hampshire</keyword>
+      <keyword>California</keyword>
+      <keyword>Idaho</keyword>
+      <keyword>North Carolina</keyword>
+      <keyword>North Dakota</keyword>
+      <keyword>Iowa</keyword>
+      <keyword>Ohio</keyword>
+      <keyword>Missouri</keyword>
+      <keyword>Washington DC</keyword>
+      <keyword>Vermont</keyword>
+      <keyword>Tennessee</keyword>
+      <keyword>Hawaii</keyword>
+      <keyword>Washington</keyword>
+      <keyword>Oklahoma</keyword>
+      <keyword>South Dakota</keyword>
+      <keyword>Nebraska</keyword>
+      <keyword>Pennsylvania</keyword>
+      <keyword>Virginia</keyword>
+      <keyword>Oregon</keyword>
+      <keyword>New Jersey</keyword>
+      <keyword>Rhode Island</keyword>
+      <keyword>Wisconsin</keyword>
+      <keyword>Indiana</keyword>
+      <keyword>Arkansas</keyword>
+      <keyword>United States</keyword>
+      <keyword>Arizona</keyword>
+      <keyword>Maryland</keyword>
+      <keyword>Alabama</keyword>
+      <keyword>Illinois</keyword>
+      <keyword>Texas</keyword>
+      <keyword>New York</keyword>
+    </placeKeys>
+    <themeKeys>
+      <thesaName>
+        <resTitle>EPA GIS Keyword Thesaurus</resTitle>
+        <date>
+          <pubDate>2017-06-22T00:00:00</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://www.epa.gov/geospatial/epa-metadata-technical-specification</linkage>
+          <orFunct>
+            <OnFunctCd value="002" />
+          </orFunct>
+          <orName>EPA Metadata Technical Specification</orName>
+        </citOnlineRes>
+      </thesaName>
+      <keyword>Agriculture</keyword>
+      <keyword>Environment</keyword>
+      <keyword>Waste</keyword>
+    </themeKeys>
+    <resConst>
+      <SecConsts>
+        <classSys>http://project-open-data.github.io/schema/#accessLevel</classSys>
+        <handDesc>Standard Technical Controls</handDesc>
+        <class>
+          <ClasscationCd value="001">Unclassified</ClasscationCd>
+        </class>
+      </SecConsts>
+    </resConst>
+    <resConst>
+      <Consts>
+        <useLimit>Data should be used only for Food Recovery purposes promoted by the EPA&#39;s Sustainable Materials Management Program (SMM). Please check sources, scale, accuracy, currency and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the EPA would be appreciated.</useLimit>
+      </Consts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+      <countryCode value="USA" />
+    </dataLang>
+    <dataExt>
+      <exDesc>Ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Period xmlns:esri="http://www.esri.com/metadata/">
+              <tmBegin>2015-12-30T00:00:00</tmBegin>
+              <tmEnd>2015-12-30T00:00:00</tmEnd>
+            </TM_Period>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-179.14733</westBL>
+          <eastBL>179.77491</eastBL>
+          <southBL>-14.602641</southBL>
+          <northBL>71.38961</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+    <idPurp>The US EPA&#39;s Excess Food Opportunities Map (geopub.epa.gov/ExcessFoodMap) is a national-scale interactive portal that maps excess food generators (e.g., grocery stores, restaurants, schools) and recipients (e.g., food banks, anaerobic digestion and composting facilities). The location, contact information, and estimates of excess food generation are beneficial to excess food resource stakeholders including NGOs, researchers, facility owners, operators, and designers striving to enhance the recovery and recycling of these materials for a more sustainable food management system.
+</idPurp>
+    <idCredit>US EPA Region 9 GIS Center, US EPA Sustainable Materials Management</idCredit>
+    <themeKeys>
+      <thesaLang>
+        <languageCode value="eng" />
+        <countryCode value="US" />
+      </thesaLang>
+      <thesaName>
+        <resTitle>Federal Program Inventory</resTitle>
+        <date>
+          <pubDate>2013-09-16</pubDate>
+        </date>
+        <citOnlineRes>
+          <linkage>https://www.performance.gov/federalprograminventory</linkage>
+          <orFunct>
+            <OnFunctCd value="002" />
+          </orFunct>
+          <orName>Federal Program Inventory</orName>
+        </citOnlineRes>
+      </thesaName>
+      <keyword>020:089</keyword>
+      <keyword>020:090</keyword>
+    </themeKeys>
+    <dataChar>
+      <CharSetCd value="004" />
+    </dataChar>
+    <resConst>
+      <LegConsts>
+        <useLimit>Although these data have been processed successfully on a computer system at the Environmental Protection Agency, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. The U.S. Environmental Protection Agency shall not be held liable for improper or incorrect use of the data described and/or contained herein.</useLimit>
+        <othConsts>https://edg.epa.gov/EPA_Data_License.html</othConsts>
+      </LegConsts>
+    </resConst>
+    <envirDesc>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.5.0.6491</envirDesc>
+    <spatRpType>
+      <SpatRepTypCd value="003" Sync="TRUE" />
+    </spatRpType>
+    <tpCat>
+      <TopicCatCd value="007" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="001" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="003" />
+    </tpCat>
+  </dataIdInfo>
+  <mdMaint>
+    <maintFreq>
+      <MaintFreqCd value="012" />
+    </maintFreq>
+    <dateNext>20170520</dateNext>
+  </mdMaint>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>Created FDGC-compliant metadata for feature class</stepDesc>
+        <stepDateTm>2016-04-27</stepDateTm>
+      </prcStep>
+    </dataLineage>
+  </dqInfo>
+  <spatRepInfo>
+    <Indref>generalized 5-digit zip code boundaries</Indref>
+  </spatRepInfo>
+  <refSysInfo>
+    <RefSystem dimension="horizontal">
+      <refSysID>
+        <identCode code="3857" />
+        <idCodeSpace>EPSG</idCodeSpace>
+        <idVersion>8.8(9.3.1.2)</idVersion>
+      </refSysID>
+    </RefSystem>
+  </refSysInfo>
+  <eainfo>
+    <detailed Name="prjweb.DBO.LND1702520_FoodBankList_USTer_2015_R9">
+      <enttyp>
+        <enttypl>prjweb.DBO.LND1702520_FoodBankList_USTer_2015_R9</enttypl>
+        <enttypd>Proprietary file type</enttypd>
+        <enttypds>ESRI</enttypds>
+        <enttypt Sync="TRUE">Table</enttypt>
+        <enttypc Sync="TRUE">317</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">OBJECTID</attalias>
+        <attrtype Sync="TRUE">OID</attrtype>
+        <attwidth Sync="TRUE">4</attwidth>
+        <atprecis Sync="TRUE">10</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Facility_Name</attrlabl>
+        <attrdef>Name of food bank</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <udom>Name of facility</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Facility_Name</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>UniqueID</attrlabl>
+        <attrdef>Automatically generated ID for quality control and maintenance of records</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Unique alphanumeric identifier</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">UniqueID</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Facility_Type</attrlabl>
+        <attrdef>Specifies if facility is a Food Bank, an associated Partner Distribution Organization (PDO), or a Regional Distribution Organization (RDO).</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Feeding America Food Bank Network</codesetn>
+            <codesets>http://www.feedingamerica.org/our-work/food-bank-network.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">Facility_Type</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>NAICS_Code_Description</attrlabl>
+        <attrdef>Descriptive text for the industry or subsector. The North American Industry Classification System (NAICS, pronounced Nakes) was developed under the direction and guidance of the Office of Management and Budget (OMB) as the standard for use by Federal statistical agencies in classifying business establishments for the collection, tabulation, presentation, and analysis of statistical data describing the U.S. economy.</attrdef>
+        <attrdefs>Office of Management and Budget (OMB)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>North American Industry Classification System (NAICS) </codesetn>
+            <codesets>https://www.census.gov/eos/www/naics/2017NAICS/2017_NAICS_Manual.pdf</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">NAICS_Code_Description</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>NAICS_Code</attrlabl>
+        <attrdef>Unique numerical identifier for the industry or subsector. The North American Industry Classification System (NAICS, pronounced Nakes) was developed under the direction and guidance of the Office of Management and Budget (OMB) as the standard for use by Federal statistical agencies in classifying business establishments for the collection, tabulation, presentation, and analysis of statistical data describing the U.S. economy.</attrdef>
+        <attrdefs>Office of Management and Budget (OMB)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>North American Industry Classification System (NAICS) </codesetn>
+            <codesets>https://www.census.gov/eos/www/naics/2017NAICS/2017_NAICS_Manual.pdf</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">NAICS_Code</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">10</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Phone_Number</attrlabl>
+        <attrdef>Primary phone number of each food bank</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <udom>Facilities' phone numbers</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Phone_Number</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Web_Address</attrlabl>
+        <attrdef>The website of each food bank</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <udom>Websites for each facility</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Web_Address</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>Street_Address</attrlabl>
+        <attrdef>Street or mailing address of the facility</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <udom>USPS street or mailing address</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">Street_Address</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>City_Name</attrlabl>
+        <attrdef>City where the facility is located</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Cities</codesetn>
+            <codesets>https://www.census.gov/geo/reference/codes/place.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">City_Name</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>County_Name</attrlabl>
+        <attrdef>County where the facility is located</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Counties</codesetn>
+            <codesets>https://www.census.gov/geo/reference/codes/place.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">County_Name</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>GNIS</attrlabl>
+        <attrdef>County where the food bank is located, expressed as a unique feature identifier from the Geographic Names Information System (GNIS)</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Geographic Names Information System</codesetn>
+            <codesets>https://nhd.usgs.gov/gnis.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">GNIS</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>StateAbrv</attrlabl>
+        <attrdef>USPS State abbreviation where the food bank is located</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>State postal code</codesetn>
+            <codesets>https://www.census.gov/geo/reference/codes/place.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">StateAbrv</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>POSTCODE</attrlabl>
+        <attrdef>USPS postal code where the facility is located</attrdef>
+        <attrdefs>Feeding America</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USPS ZIP code</codesetn>
+            <codesets>https://www.usps.com/nationalpremieraccounts/findzipcodes.html</codesets>
+          </codesetd>
+        </attrdomv>
+        <attalias Sync="TRUE">POSTCODE</attalias>
+        <attrtype Sync="TRUE">String</attrtype>
+        <attwidth Sync="TRUE">255</attwidth>
+        <atprecis Sync="TRUE">0</atprecis>
+        <attscale Sync="TRUE">0</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ExcessFood_TonYear</attrlabl>
+        <attrdef>Estimate of excess food for the establishment in tons per year
+</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Weight in tons</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ExcessFood_TonYear</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+      <attr>
+        <attrlabl>ReceivedFood_TonYear</attrlabl>
+        <attrdef>The total amount of food received by the facility in tons per year</attrdef>
+        <attrdefs>EPA</attrdefs>
+        <attrdomv>
+          <udom>Weight in tons</udom>
+        </attrdomv>
+        <attalias Sync="TRUE">ReceivedFood_TonYear</attalias>
+        <attrtype Sync="TRUE">Double</attrtype>
+        <attwidth Sync="TRUE">8</attwidth>
+        <atprecis Sync="TRUE">38</atprecis>
+        <attscale Sync="TRUE">8</attscale>
+      </attr>
+    </detailed>
+  </eainfo>
+  <mdHrLvName>dataset</mdHrLvName>
+  <mdFileID>20783108-54B3-4589-B8C3-F70A4FE4E69E</mdFileID>
+  <Esri>
+    <ModDate>20170630</ModDate>
+    <ModTime>17244000</ModTime>
+    <scaleRange>
+      <minScale>150000000</minScale>
+      <maxScale>5000</maxScale>
+    </scaleRange>
+    <ArcGISFormat>1.0</ArcGISFormat>
+    <ArcGISProfile>FGDC</ArcGISProfile>
+    <DataProperties>
+      <itemProps>
+        <itemName Sync="TRUE">prjweb.DBO.LND1702520_FoodBankList_USTer_2015_R9</itemName>
+        <imsContentType Sync="TRUE">002</imsContentType>
+        <relatedItems>
+          <item>
+            <itemName />
+          </item>
+          <item>
+            <itemName />
+          </item>
+        </relatedItems>
+        <itemLocation>
+          <linkage Sync="TRUE">Server=E0909PSFPK003; Service=sde:sqlserver:E0909PSFPK003; Database=prjweb; Version=dbo.DEFAULT</linkage>
+          <protocol Sync="TRUE">ArcSDE Connection</protocol>
+        </itemLocation>
+      </itemProps>
+    </DataProperties>
+    <SyncDate>20170630</SyncDate>
+    <SyncTime>17244000</SyncTime>
+  </Esri>
+</metadata>
