@@ -19,13 +19,13 @@
 
         #control-panel {
             position: absolute;
-            background: #fff;
+            background: #4c1261;
             top: 0;
             left: 0;
             margin: 12px;
             padding: 20px;
             font-size: 12px;
-            line-height: 1.5;
+            line-height: 1;
             z-index: 1;
         }
 
@@ -66,12 +66,12 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/dark-v10?optimize=true',
     center: [-98.5795, 39.8283],
     zoom: 3,
-    pitch: 40.5,
+    pitch: 75.5,
     antialias: true
 });
 
 // Get Data for visual
-var DATA_URL = 'https://api.census.gov/data/timeseries/poverty/histpov2.html';
+var DATA_URL = 'https://api.census.gov/data/timeseries/poverty/histpov2?get=PCTPOV&for=us:1&time=2016&RACE=1&key=6b9ffb3dcc6d7b2a4786668d349a8bcc4855e720';
 
 //Create the deck.gl hexagon layer and style for the data
 var OPTIONS = ['radius', 'coverage', 'upperPercentile'];
