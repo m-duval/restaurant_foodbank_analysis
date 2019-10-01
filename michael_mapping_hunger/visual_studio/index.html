@@ -19,7 +19,7 @@
 
         #control-panel {
             position: absolute;
-            background: #4c1261;
+            background: #423946;
             top: 0;
             left: 0;
             margin: 12px;
@@ -56,7 +56,7 @@
     </div>
 </body>
 <script type="text/javascript">
-mapboxgl.accessToken = 'pk.eyJ1IjoiZHV2NzQiLCJhIjoiY2swdG1vN3J1MGJyeTNucGw4eHh4dDBociJ9.U3R9VsbBYioetInXdRX4AA';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZHV2NzQiLCJhIjoiY2sxOGFzejliMDkzODNkcDFtYzR1bm13ciJ9.q_nk-oY84OyuLe0ErcZFxA';
 
 var { MapboxLayer, HexagonLayer } = deck;
 
@@ -71,7 +71,7 @@ var map = new mapboxgl.Map({
 });
 
 // Get Data for visual
-var DATA_URL = 'https://api.census.gov/data/timeseries/poverty/histpov2?get=PCTPOV&for=us:1&time=2016&RACE=1&key=6b9ffb3dcc6d7b2a4786668d349a8bcc4855e720';
+var DATA_URL = "hunger_csv";
 
 //Create the deck.gl hexagon layer and style for the data
 var OPTIONS = ['radius', 'coverage', 'upperPercentile'];
