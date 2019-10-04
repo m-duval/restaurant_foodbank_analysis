@@ -76,7 +76,7 @@ var map = new mapboxgl.Map({
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: 'data/hunger.csv',
+        url: 'jupyter_notebook/poverty.csv',
         dataType: "text",
         success: function(csvData) {makeGeoJSON(csvData);}
      });
