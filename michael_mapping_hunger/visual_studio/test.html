@@ -1,14 +1,12 @@
 <html>
 
 <head>
-    <title>Hunger in the United States</title>
+    <title>POVERTY IN THE UNITED STATES</title>
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
         <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0-beta.1/mapbox-gl.js"></script>
         <link rel="stylesheet" type="text/css" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0-beta.1/mapbox-gl.css">
         <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script src='csv2geojson.js'></script>
         <style type="text/css">
         #map { position:absolute; top:0; bottom:0; width:100%; }
         body {
@@ -21,13 +19,13 @@
 
         #control-panel {
             position: absolute;
-            background: #423946;
+            background: #fff;
             top: 0;
             left: 0;
             margin: 12px;
             padding: 20px;
             font-size: 12px;
-            line-height: 1;
+            line-height: 1.5;
             z-index: 1;
         }
 
@@ -66,45 +64,14 @@ var { MapboxLayer, HexagonLayer } = deck;
 var map = new mapboxgl.Map({
     container: document.body,
     style: 'mapbox://styles/mapbox/dark-v10?optimize=true',
-    center: [-98.5795, 39.8283],
-    zoom: 3,
-    pitch: 75.5,
+    center: [-1.4157, 52.2324],
+    zoom: 6,
+    pitch: 40.5,
     antialias: true
 });
 
 // Get Data for visual
-$(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: 'data/hunger.csv',
-        dataType: "text",
-        success: function(csvData) {makeGeoJSON(csvData);}
-     });
-});
-
-function makeGeoJSON(csvData) {
-    csv2geojson.csv2geojson(csvData, {
-        latfield: 'latitude',
-        lonfield: 'longitude',
-        delimiter: ','
-    }, function(err, data) {
-        map.on('load', function () {
-
-            map.addLayer({
-                'id': 'airports',
-                'type': 'symbol',
-                'source': {
-                    'type': 'geojson',
-                    'data': data
-                },
-                'layout': {
-                    "icon-image": "marker-15"
-                },
-                'paint': {}
-            });
-        });    
-    });
-}
+var DATA_URL = 'https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/3d-heatmap/heatmap-data.csv';
 
 //Create the deck.gl hexagon layer and style for the data
 var OPTIONS = ['radius', 'coverage', 'upperPercentile'];
