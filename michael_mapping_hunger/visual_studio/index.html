@@ -3,12 +3,10 @@
 <head>
     <title>Hunger in the United States</title>
         <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <script src="https://unpkg.com/deck.gl@latest/dist.min.js"></script>
         <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0-beta.1/mapbox-gl.js"></script>
         <link rel="stylesheet" type="text/css" href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0-beta.1/mapbox-gl.css">
         <script src="https://d3js.org/d3.v5.min.js"></script>
-        <script src='csv2geojson.js'></script>
         <style type="text/css">
         #map { position:absolute; top:0; bottom:0; width:100%; }
         body {
@@ -73,38 +71,7 @@ var map = new mapboxgl.Map({
 });
 
 // Get Data for visual
-$(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: 'jupyter_notebook/poverty.csv',
-        dataType: "text",
-        success: function(csvData) {makeGeoJSON(csvData);}
-     });
-});
-
-function makeGeoJSON(csvData) {
-    csv2geojson.csv2geojson(csvData, {
-        latfield: 'latitude',
-        lonfield: 'longitude',
-        delimiter: ','
-    }, function(err, data) {
-        map.on('load', function () {
-
-            map.addLayer({
-                'id': 'airports',
-                'type': 'symbol',
-                'source': {
-                    'type': 'geojson',
-                    'data': data
-                },
-                'layout': {
-                    "icon-image": "marker-15"
-                },
-                'paint': {}
-            });
-        });    
-    });
-}
+var DATA_URL = 'https://raw.githubusercontent.com/m-duval/restaurant_foodbank_analysis/michael/michael_mapping_hunger/jupyter_notebook/poverty.csv';
 
 //Create the deck.gl hexagon layer and style for the data
 var OPTIONS = ['radius', 'coverage', 'upperPercentile'];
@@ -141,7 +108,7 @@ map.on('style.load', () => {
         elevationRange: [0, 1000],
         elevationScale: 250,
         extruded: true,
-        getPosition: d => [Number(d.lng), Number(d.lat)],
+        getPosition: d => [Number(d.Latitude), Number(d.Longitude)],
         lightSettings: LIGHT_SETTINGS,
         opacity: 1
     });
