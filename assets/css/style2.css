@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* overall page formatting (index, temperature, humidity, cloudiness, wind-speed) */
+body {
+  background: #E8E8E8;
+  font-family: sans-serif;
+}
+.main-display {
+  width: 1350px;
+  margin: 100px auto;
+  box-sizing: border-box;
+}
+.summary,
+.index-summary {
+  width: 830px;
+  height: 670px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  float: left;
+}
+.summary img {
+  margin: 0 -58px 10px 0;
+  float: left;
+}
+.summary p {
+  margin: 25px;
+}
+.summary p.intro {
+  padding-top: 45px;
+  z-index: 5;
+}
+.index-summary p {
+  margin: 30px 50px;
+}
+em {
+  font-weight: bold;
+  color: #0178bd;
+}
+h1 {
+  font-size: 40px;
+  color: #0178bd;
+  padding: 25px 0 25px 25px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #0178bd;
+}
+h2 {
+  font-size: 30px;
+  color: #0178bd;
+}
+h4 {
+  font-size: 20px;
+  color: #0178bd;
+  padding: 0 0 15px 25px;
+}
+.viz-box {
+  width: 500px;
+  box-sizing: border-box;
+  float: right;
+  background-color: #FFFFFF;
+}
+.viz-box img {
+  width: 48%;
+}
+
+
+/* compare.html (comparison) formatting */
+#plot1,
+#plot3 {
+  margin-left: 15px;
+}
+#plot3,
+#plot4 {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+#winnow {
+  float: left;
+  width: 30%;
+  margin: 0 25px 0 20px;
+}
+#epa {
+  float: left;
+  width: 23%;
+  margin: 30px 35px 35px 20px;
+}
+#census {
+  float: left;
+  width: 28%;
+  margin: 58px 20px 70px 20px;
+}
+.comparison-viz {
+  background-color: #FFFFFF;
+  width: 1150px;
+  margin: 100px auto;
+}
+.plotcomp {
+  width: 50%;
+  background: #FFFFFF;
+  float: left;
+}
+#plotcomp {
+  width: 80%;
+}
+.plotcomp img {
+  margin: -10px 0 20px 75px;
+  border: none;
+}
+
+
+/* raw-data.html (table) formatting */
+.weather-table {
+  background-color: #FFFFFF;
+  width: 1150px;
+  margin: 0 auto -40px auto;
+}
+.weather-table p {
+  margin: -15px 0 20px 30px;
+}
+iframe {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  height: 600px;
+  width: 1100px;
+}
+.dataframe {
+  font-size: 14px;
+}
+th, td {
+  padding: 15px;
+}
+table tr:nth-child(even) {
+  background-color: #bfd6e3;
+}
+table tr:nth-child(odd) {
+ background-color: #FFFFFF;
+}
+table thead tr:first-of-type {
+  text-align: center;
+  background-color: #0178bd;
+  color: #FFFFFF;
+}
+table thead tr th:nth-child(2) {
+  text-align: left;
+}
+tbody tr td,
+tbody tr th {
+  text-align: right;
+}
+tbody tr td:first-of-type{
+  text-align: left;
+}
+.col-two {
+  width: 250px;
+}
+.col-one {
+  width: 60px;
+}
+.col-three,
+.col-four,
+.col-five,
+.col-six,
+.col-seven,
+.col-eight {
+  width: 100px;
+}
+.col-nine {
+  width: 200px;
+}
+
+
+/* naviation bar formatting (all pages) */
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+  padding: 15px 25px;
+  background: #FFFFFF;
+  z-index: 10;
+}
+.landing {
+  font-size: 30px;
+  padding: 10px 20px 0 20px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  margin-left: 75px;
+  background-color: #0178bd;
+}
+.landing a {
+  text-decoration: none;
+  color: #F1F3F4;
+}
+.landing a:hover {
+  font-style: italic;
+}
+.menu li {
+  font-size: 20px;
+  display: inline;
+  margin-right: 60px;
+}
+.menu li:last-of-type {
+}
+.menu li a {
+  text-decoration: none;
+  color: #0178bd;
+}
+.menu li a:hover {
+  font-style: italic;
+}
+.menu li a:visited {
+  color: #0178bd;
+}
+.menu li a:active,
+.menu li a:visited:active {
+  color: #ef8517;
+}
+.weather-menu {
+  display: none;
+}
+.dropdown {
+  position: relative;
+  color: #0178bd;
+}
+.dropdown span {
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
+.dropdown:hover .weather-menu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  z-index: 1;
+  color: #FFFFFF;
+}
+.weather-menu li {
+  background-color: #0178bd;
+  color: #FFFFFF;
+  list-style: none;
+  padding: 10px 20px 10px 20px;
+  border-bottom: 1px solid #F1F3F4;
+  box-shadow: 4px 2px 8px #F1F3F4;
+}
+.weather-menu li a {
+  color: #FFFFFF;
+}
+.weather-menu li a:hover {
+  font-style: italic;
+  color: #FFFFFF;
+}
+.weather-menu li a:visited,
+.weather-menu li a:visited:hover {
+  color: #FFFFFF;
+}
+.weather-menu li a:visited:active {
+  color: #ef8517;
+}
+.weather-menu li:first-of-type{
+  padding-top: 20px;
+}
+.weather-menu li:last-of-type {
+  padding-bottom: 20px;
+}
+
+
+@media (min-width: 751px) {
+
+}
+@media (max-width: 750px) {
+
+}
