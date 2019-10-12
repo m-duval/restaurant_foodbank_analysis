@@ -72,7 +72,16 @@ h5 {
 .viz-box img {
   width: 48%;
 }
-
+.mappingframes {
+  height: 675px;
+  width: 1200px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#patiencealert {
+  text-align: center;
+}
 
 /* compare.html (comparison) formatting */
 
@@ -138,10 +147,10 @@ h5 {
   margin: -15px 0 20px 30px;
 }
 iframe {
-  margin-left: 25px;
-  margin-bottom: 25px;
-  height: 600px;
-  width: 1100px;
+  margin-left: auto;
+  margin-bottom: auto;
+  height: 675px;
+  width: 1200px;
 }
 .dataframe {
   font-size: 14px;
